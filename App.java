@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 10;
 
         int resultadoFinal = factorial(n);
         System.out.println("Resultado: " + resultadoFinal);
@@ -20,7 +20,7 @@ public class App {
         int resultadoSuma = ejercicios.Sumatoria2(n);
         System.out.println("La suma de todo es "+resultadoSuma);
 
-
+        ejercicios.nhasta1(n);
 
     }
         

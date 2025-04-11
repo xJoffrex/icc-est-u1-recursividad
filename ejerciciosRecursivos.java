@@ -29,5 +29,18 @@ public class ejerciciosRecursivos {
         return (n%10) + Sumatoria2(n/10);
     }
 
+    public void nhasta1(int n){
+        if (n < 0){
+            return;
+        }
+
+        System.out.println(n);
+        nhasta1(n-1);
+    }
+
+    public reversa(int n){
+
+    }
+
 }
 
