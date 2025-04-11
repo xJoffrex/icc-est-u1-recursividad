@@ -38,9 +38,16 @@ public class ejerciciosRecursivos {
         nhasta1(n-1);
     }
 
-    public reversa(int n){
-
+    public int reversa(int n) {
+        return reversaaux(n, 0);
     }
 
+    private int reversaaux(int n, int acumulado) {
+        if (n == 0) {
+            return acumulado;
+        }
+        int ultimo = n % 10;
+        acumulado = acumulado * 10 + ultimo;
+        return reversaaux(n / 10, acumulado);
+    }
 }
-

@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 1234;  // ---> Modificar el numero para hacer las pruebas de escritorio adecuadamente todos los metodos tienen a n de variable
 
         int resultadoFinal = factorial(n);
         System.out.println("Resultado: " + resultadoFinal);
@@ -21,6 +21,9 @@ public class App {
         System.out.println("La suma de todo es "+resultadoSuma);
 
         ejercicios.nhasta1(n);
+
+        int reversa = ejercicios.reversa(n);
+        System.out.println("reversa: "+reversa);
 
     }
         
